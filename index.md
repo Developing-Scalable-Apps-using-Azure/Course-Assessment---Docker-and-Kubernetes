@@ -1,5 +1,8 @@
 # Welcome to the course assessment for intermediate Docker and Kubernetes
 
+All responses must be uploaded to the below one-drive link:
+https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
+
 This course is composed up of the below sections:
 
 ### Section 1 [20 Points]
@@ -134,7 +137,6 @@ A : Kubectl run
 B : Kubernetes get deployment
 C : Kubernetes set deployment
 D : None of the above
-```
 
 Question 18. Which of the following process runs on Kubernetes non-master node?
 A : Kube-proxy
@@ -154,6 +156,7 @@ B : docker build
 C : docker tag
 D : docker run
 
+```
 
 ## Section 2 - Lab Exercise
 
