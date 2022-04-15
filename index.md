@@ -163,16 +163,16 @@ D : docker run
 
 
 **Description:**
-This lab covers the below dimensions of AKS and GitHub:
-1. AKS Operations
+This lab covers the below dimensions of Kubernetes and GitHub:
+1. K8s Operations
 2. GitHub Actions
 3. HELM 3
 4. Integration with Container Registry
-5. Integration with Azure Key Vault
-6. Integration with Azure Storage
+5. Integration with Key Vault
+6. Integration with Storage
 
 The proof of executions for this lab are requested to be uploaded to the below location:
-https://1drv.ms/u/s!AjKtnZen93C0nRWh0myuo4CTCqyH?e=haO08c
+https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
 
 **Steps:**
 
