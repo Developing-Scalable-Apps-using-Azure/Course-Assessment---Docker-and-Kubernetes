@@ -1,4 +1,4 @@
-# Welcome to the course assessment for building cloud-native applications
+# Welcome to the course assessment for intermediate Docker and Kubernetes
 
 This course is composed up of the below sections:
 
@@ -121,8 +121,39 @@ A. PVCs
 B. Services
 C. Ingress
 D. B and C
+  
+Question 16. Which of the following commands gives you detailed info on a Pod?
+A : kubectl describe pods
+B : kubectl get pods -vvv
+C : kubectl get pods –detail
+D : kubectl pods inspect
 
+  
+Question 17. To create a new deployment in kubernetes, use the command ………….
+A : Kubectl run
+B : Kubernetes get deployment
+C : Kubernetes set deployment
+D : None of the above
 ```
+
+Question 18. Which of the following process runs on Kubernetes non-master node?
+A : Kube-proxy
+B : Kube-apiserver
+C : Both Kube-proxy & Kube-apiserver
+D : None of above
+
+Question 19. Which command will map port 80 in the container to port 5001 on the Docker host?
+A : docker run -p 5001:80
+B : docker run -p 80:5001
+C : docker run expose 80:5001
+D : docker run expose 5001:80
+
+Question 20. Which command uploads your local image to your Docker Registry?
+A : docker push
+B : docker build
+C : docker tag
+D : docker run
+
 
 ## Section 2 - Lab Exercise
 
