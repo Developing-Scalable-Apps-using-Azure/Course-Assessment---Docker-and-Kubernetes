@@ -15,23 +15,20 @@ Lab Exercise
 
 ```markdown
 Question 1. Which one of the following is an orchestration software which can be used for scaling containers?
-
-A. Azure Batch.
-B. Azure Kubernetes.
-C. Azure Data Factory.
-D. Azure key vault.
+A. Helm
+B. Kubernetes
+C. GitHub Actions
+D. Key Management System
 
 
 Question 2. What is the basic operational unit of Kubernetes?
-
 A. Pod
 B. Container
 C. Nodes
 D. Task
 
 
-Question 3. Which one of the following can be done for a container based application using Azure Kubernetes?
-
+Question 3. Which one of the following can be done for a container based application using Kubernetes?
 A. Making container scalability easy.
 B. Make workloads portable.
 C. Build more extensible apps.
@@ -39,41 +36,35 @@ D. All of the above.
 
 
 Question 4. Which one of the following helps to set up cluster autoscaler for adding capacity as per demand?
-
 A. Virtual nodes
 B. VM Scale sets
 C. Container
 D. None of the above.
 
-Question 5. Which one of the following is incorrect regarding Azure Kubernetes?
 
-A. Azure Kubernetes does not mandatorily need resources to be created in cloud.
-B. Azure Kubernetes manages and makes deployment of container based applications easy.
-C. Azure Kubernetes helps in automatic scheduling of container based application.
+Question 5. Which one of the following is incorrect regarding Kubernetes?
+A. Kubernetes does not mandatorily need resources to be created in cloud.
+B. Kubernetes manages and makes deployment of container based applications easy.
+C. Kubernetes helps in automatic scheduling of container based application.
 D. None of these.
-View Answer
 
 
 Question 6. Choose the correct option.
-
-A. Azure Kubernetes is an open source platform.
+A. Kubernetes is an open source platform.
 B. etcd is used to maintain the state of Kubernetes cluster and configuration.
 C. Both A and B.
 D. Neither A nor B.
-View Answer
 
 
-Question 7. Choose the wrong statement regarding Azure Kubernetes.
-
-A. Use of Azure Kubernetes demands a ver low minimum monthly charge.
+Question 7. Choose the wrong statement regarding Kubernetes.
+A. Use of Kubernetes demands a ver low minimum monthly charge.
 B. It can integrate with Visual Studio Code.
 C. It provides elastic scalability.
 D. None of these.
 View Answer
 
 
-Question 8. Which one of the following is correct regarding clusters of Azure Kubernetes?
-
+Question 8. Which one of the following is correct regarding clusters of Kubernetes?
 A. Cluster name need not be unique within the selected resource group.
 B. Azure CLI can be used to create clusters.
 C. Both A and B.
@@ -82,20 +73,19 @@ View Answer
 
 
 Question 9. Choose the correct option.
-
-A. It can integrate with Azure Active Directory.
-B. Role based access control is possible in Azure Kubernetes.
+A. Kubernetes can integrate with Active Directory.
+B. Role based access control is possible in Kubernetes.
 C. Both A and B.
 D. None of these.
 View Answer
 
 
-Question 10. Which one of the following permission must be given to the service principal to establish authentication between AKS and ACR?
-
-A. ACR.Write
-B. ACR.Push
-C. ACR.Pull
+Question 10. Which one of the following permission must be given to the service principal to establish authentication between Kubernetes and private registry?
+A. Write
+B. Push
+C. Pull
 D. B and C
+
 
 Question 11. How do I add a message to a commit?
 A. $ git message "Fix error in xxxx"
@@ -103,17 +93,20 @@ B. $ git add "Fix error in xxxx"
 C. $ git commit "Fix error in xxxx"
 D  $ git commit -m "Fix error in xxxx"
 
+
 Question 12. Which of the following commands is used to tag a Helm chart?
 A. helm chart update
 B. helm chart push
 C. helm chart save
 D. helm chart tag
 
-Question 13. Where does AKS store Helm release configuration?
-A. Azure Key Vault
+
+Question 13. Where does Kubernetes store Helm release configuration?
+A. Key Vault
 B. K8S secrets
 C. GitHub Secrets
 D. B and C
+
 
 Question 14. Fill in the missing command syntax:
 helm install -n ns-intel <param-1> <param-2>
@@ -122,6 +115,7 @@ B. Param-1: release name, Param-2: chart name
 C. Param-1: pod name, Param-2: release name
 D. Param-1: chart name, Param-2: release name
 
+  
 Question 15. How can you expose K8S deployments externally?
 A. PVCs
 B. Services
@@ -134,7 +128,7 @@ D. B and C
 
 ```markdown
 
-**Lab Title:** Develop an automated workflow using GitHub Actions to deploy an application with React frontend and .NET Core Web API backend to Azure Kubernetes Service
+**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application with React frontend and .NET Core Web API backend to Azure Kubernetes Service
 
 
 **Description:**
