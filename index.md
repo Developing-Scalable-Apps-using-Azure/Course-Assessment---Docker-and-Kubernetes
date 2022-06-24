@@ -1,7 +1,7 @@
 # Welcome to the course assessment for Developing Scalable Applications on Azure
 
 All responses must be uploaded to the below one-drive link:
-https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99 
+https://drive.google.com/drive/folders/152C0mMwYSRFY1nFIvMZasenUYalEy5OD?usp=sharing
 
 This course is composed up of the below sections:
 
@@ -173,7 +173,7 @@ This lab covers the below dimensions of Kubernetes and GitHub:
 
 
 The proof of executions for this lab are requested to be uploaded to the below location:
-https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99
+https://drive.google.com/drive/folders/152C0mMwYSRFY1nFIvMZasenUYalEy5OD?usp=sharing
 
 **Steps:**
 
