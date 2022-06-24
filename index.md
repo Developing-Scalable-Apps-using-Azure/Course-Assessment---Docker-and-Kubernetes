@@ -1,4 +1,4 @@
-# Welcome to the course assessment for Developing SCalable Applications on Azure
+# Welcome to the course assessment for Developing Scalable Applications on Azure
 
 All responses must be uploaded to the below one-drive link:
 https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99 
