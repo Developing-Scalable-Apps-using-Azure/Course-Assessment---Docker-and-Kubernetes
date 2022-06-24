@@ -1,7 +1,7 @@
 # Welcome to the course assessment for intermediate Docker and Kubernetes
 
 All responses must be uploaded to the below one-drive link:
-https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
+https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99 
 
 This course is composed up of the below sections:
 
