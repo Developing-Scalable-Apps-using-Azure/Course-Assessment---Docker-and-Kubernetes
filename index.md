@@ -1,7 +1,7 @@
-# Welcome to the course assessment for Developing Scalable Applications on Azure
+# Welcome to the course assessment for intermediate Docker and Kubernetes
 
 All responses must be uploaded to the below one-drive link:
-https://drive.google.com/drive/folders/152C0mMwYSRFY1nFIvMZasenUYalEy5OD?usp=sharing
+https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sharing 
 
 This course is composed up of the below sections:
 
@@ -160,11 +160,8 @@ D : docker run
 
 ## Section 2 - Lab Exercise
 
-```markdown
+**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application to Azure Kubernetes Service
 
-**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application with React frontend and .NET Core Web API backend to Azure Kubernetes Service
-
-**Code Repo: https://github.com/Fasttrack-Azure/Course-Assessment.git 
 **Description:**
 This lab covers the below dimensions of Kubernetes and GitHub:
 1. K8s Operations
@@ -173,22 +170,41 @@ This lab covers the below dimensions of Kubernetes and GitHub:
 
 
 The proof of executions for this lab are requested to be uploaded to the below location:
-https://drive.google.com/drive/folders/152C0mMwYSRFY1nFIvMZasenUYalEy5OD?usp=sharing
+https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sharing 
 
 **Steps:**
 
 **Step 1:**
-- Clone a sample React + .NET Core Web API application (Dockerized) locally using VS Code or Visual Studio. Sample code: https://github.com/Fasttrack-Azure/Course-Assessment.git
-- You may feel free to you any other codebase as per your convenience.
+- Create an new repositary in your personal GitHub account.
+- Clone the new repo to your local directory using VS Code.
+- Create a sample .Net Core application using.
+- You may feel free to you any other existing codebase as per your convenience.
 
 **Step 2:**
+- Add Docker support by adding a Dockerfile to the workspace (CMD+SHIFT+P -> Add Dockerfile)
 - Build a docker image locally
 - Test and run the image loally
-- Retag the image and push it to Azure Container Registry
+- Retag the image and push it to the below Azure Container Registry
+
+```
+ACR Name: sbacr02.azurecr.io
+Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
+ACR Resource Group: SB-AKS-RG-01
+```
+
 - Attach a snapshot for the successful push to ACR (CLI logs or Azure Portal)
 
 **Step 3:**
 - Create a GitHub workflow to build and push the image to ACR via GitHub Actions
 - Test the workflow and attach a snapshot for the successful execution of the above workflow
 
+**Step 4:**
+- Edit the workflow to deploy the app to the below AKS cluster
 ```
+AKS Name: sbaks02
+AKS Resource Group:SB-AKS-RG-01
+```
+Kubeconfig file to authentiacte against the AKS cluster- [Kubeconfig](/kubeconfig-ss)
+
+- Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
+

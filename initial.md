@@ -1,7 +1,7 @@
 # Welcome to the course assessment for intermediate Docker and Kubernetes
 
 All responses must be uploaded to the below one-drive link:
-https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
+https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sharing 
 
 This course is composed up of the below sections:
 
@@ -112,11 +112,11 @@ D. B and C
 
 
 Question 14. Fill in the missing command syntax:
-helm install -n ns-intel <param-1> <param-2>
+docker tag <param-1> <param-2>
 A. Param-1: release name, Param-2: pod name
 B. Param-1: release name, Param-2: chart name
-C. Param-1: pod name, Param-2: release name
-D. Param-1: chart name, Param-2: release name
+C. Param-1: source image name, Param-2: target image name
+D. Param-1: target image name, Param-2: relesource image name
 
   
 Question 15. How can you expose K8S deployments externally?
@@ -160,33 +160,38 @@ D : docker run
 
 ## Section 2 - Lab Exercise
 
-```markdown
-
-**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application with React frontend and .NET Core Web API backend to Azure Kubernetes Service
-
+**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application to Azure Kubernetes Service
 
 **Description:**
 This lab covers the below dimensions of Kubernetes and GitHub:
 1. K8s Operations
 2. GitHub Actions
-3. HELM 3
 4. Integration with Container Registry
-5. Integration with Key Vault
-6. Integration with Storage
+
 
 The proof of executions for this lab are requested to be uploaded to the below location:
-https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
+https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sharing 
 
 **Steps:**
 
 **Step 1:**
-- Clone a sample React + .NET Core Web API application (Dockerized) locally using VS Code or Visual Studio. Sample code: https://github.com/Fasttrack-Azure/Course-Assessment.git
-- You may feel free to you any other codebase as per your convenience.
+- Create an new repositary in your personal GitHub account.
+- Clone the new repo to your local directory using VS Code.
+- Create a sample .Net Core application using.
+- You may feel free to you any other existing codebase as per your convenience.
 
 **Step 2:**
+- Add Docker support by adding a Dockerfile to the workspace (CMD+SHIFT+P -> Add Dockerfile)
 - Build a docker image locally
 - Test and run the image loally
-- Retag the image and push it to Azure Container Registry
+- Retag the image and push it to the below Azure Container Registry
+
+```
+ACR Name: sbacr02.azurecr.io
+Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
+ACR Resource Group: SB-AKS-RG-01
+```
+
 - Attach a snapshot for the successful push to ACR (CLI logs or Azure Portal)
 
 **Step 3:**
@@ -194,25 +199,12 @@ https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
 - Test the workflow and attach a snapshot for the successful execution of the above workflow
 
 **Step 4:**
-- Add HELM support to the project created in **Step 1**
-- Update the GitHub workflow to package the Helm chart and push it to AKS
-- Test the workflow and attach a snapshot for the successful execution of the above workflow
-
-
-**Step 5:**
-- Update the Github workflow to install the helm chart in ns-<your-name> namespace
-- Test the workflow and attach a snapshot for the successful execution of the above workflow
-  
-**Step 6:**
-- Commit any small change in application frontend to re-run the GitHub Workflow and upgrade your AKS deployment
-- Rollback to the previous release via Azure CLI
-- Attach a snapshot for helm history command 
-  
-**Step 7 - Optional:**
-- Add an environment variable to the pod defination
-- Create the corresponding secret in Azure Key Vault
-- Upgrade the deployment using your GitHub workflow
-- Test the workflow and attach a snapshot for the successful execution of the above workflow
-- Attach a snapshot for the availability of the AKS secret as an environment variable in the pod
-
+- Edit the workflow to deploy the app to the below AKS cluster
 ```
+AKS Name: sbaks02
+AKS Resource Group:SB-AKS-RG-01
+```
+Kubeconfig file to authentiacte against the AKS cluster- [Kubeconfig](/kubeconfig-ss)
+
+- Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
+
