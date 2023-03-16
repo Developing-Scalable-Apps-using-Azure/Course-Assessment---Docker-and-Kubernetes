@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sidapp01
+spec:
+  selector:
+    matchLabels:
+      app: sidapp01
+  template:
+    metadata:
+      labels:
+        app: sidapp01
+    spec:
+      containers:
+      - name: sidapp01
+        image: sbacr02.azurecr.io/sidapp01:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 5277
