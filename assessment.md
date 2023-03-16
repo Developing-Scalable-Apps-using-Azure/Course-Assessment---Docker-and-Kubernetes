@@ -160,9 +160,8 @@ D : docker run
 
 ## Section 2 - Lab Exercise
 
-**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application with React frontend and .NET Core Web API backend to Azure Kubernetes Service
+**Lab Title:** Develop automated workflows using GitHub Actions to deploy an application to Azure Kubernetes Service
 
-**Code Repo: https://github.com/Fasttrack-Azure/Course-Assessment.git 
 **Description:**
 This lab covers the below dimensions of Kubernetes and GitHub:
 1. K8s Operations
