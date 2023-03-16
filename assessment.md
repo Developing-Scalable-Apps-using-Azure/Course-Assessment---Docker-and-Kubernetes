@@ -205,7 +205,7 @@ ACR Resource Group: SB-AKS-RG-01
 AKS Name: sbaks02
 AKS Resource Group:SB-AKS-RG-01
 ```
-Kubeconfig file - [Kubeconfig](/kubeconfig-ss)
+Kubeconfig file to authentiacte against the AKS cluster- [Kubeconfig](/kubeconfig-ss)
 
 - Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
 
