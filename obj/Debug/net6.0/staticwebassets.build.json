@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "89DcbLRi+2sWYG0EJhpU/QPbGe6EMoyFLa+bPioVWMc=",
+  "Source": "Course-Assessment-Docker-and-Kubernetes",
+  "BasePath": "_content/Course-Assessment-Docker-and-Kubernetes",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
