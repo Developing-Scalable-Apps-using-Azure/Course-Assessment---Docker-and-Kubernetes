@@ -178,17 +178,29 @@ https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99
 **Steps:**
 
 **Step 1:**
-- Clone a sample React + .NET Core Web API application (Dockerized) locally using VS Code or Visual Studio. Sample code: https://github.com/Fasttrack-Azure/Course-Assessment.git
-- You may feel free to you any other codebase as per your convenience.
+- Create an new repositary in your personal GitHub account.
+- Clone the new repo to your local directory using VS Code.
+- Create a sample .Net Core application using.
+- You may feel free to you any other existing codebase as per your convenience.
 
 **Step 2:**
+- Add Docker support by adding a Dockerfile to the workspace (CMD+SHIFT+P -> Add Dockerfile)
 - Build a docker image locally
 - Test and run the image loally
-- Retag the image and push it to Azure Container Registry
+- Retag the image and push it to the below Azure Container Registry
+
+ACR Name: sbacr02.azurecr.io
+Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
+
 - Attach a snapshot for the successful push to ACR (CLI logs or Azure Portal)
 
 **Step 3:**
 - Create a GitHub workflow to build and push the image to ACR via GitHub Actions
 - Test the workflow and attach a snapshot for the successful execution of the above workflow
 
+**Step 4:**
+- Edit the workflow to deploy the app to the below AKS cluster
+AKS Name: sbaks02
+Kubeconfig file - [Kubeconfig](/kubeconfig-ss)
+- Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
 ```
