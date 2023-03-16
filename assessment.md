@@ -1,7 +1,7 @@
 # Welcome to the course assessment for intermediate Docker and Kubernetes
 
 All responses must be uploaded to the below one-drive link:
-https://1drv.ms/u/s!AjKtnZen93C0rXQCPE5NN6bhQ2DR?e=H0TWA2
+https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sharing 
 
 This course is composed up of the below sections:
 
@@ -160,8 +160,6 @@ D : docker run
 
 ## Section 2 - Lab Exercise
 
-```markdown
-
 **Lab Title:** Develop automated workflows using GitHub Actions to deploy an application with React frontend and .NET Core Web API backend to Azure Kubernetes Service
 
 **Code Repo: https://github.com/Fasttrack-Azure/Course-Assessment.git 
@@ -173,7 +171,7 @@ This lab covers the below dimensions of Kubernetes and GitHub:
 
 
 The proof of executions for this lab are requested to be uploaded to the below location:
-https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99
+https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sharing 
 
 **Steps:**
 
@@ -189,8 +187,10 @@ https://1drv.ms/u/s!AjKtnZen93C0sTtoKIr5YLpOfJ6C?e=pLhp99
 - Test and run the image loally
 - Retag the image and push it to the below Azure Container Registry
 
+```
 ACR Name: sbacr02.azurecr.io
 Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
+```
 
 - Attach a snapshot for the successful push to ACR (CLI logs or Azure Portal)
 
@@ -200,7 +200,9 @@ Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
 
 **Step 4:**
 - Edit the workflow to deploy the app to the below AKS cluster
+```
 AKS Name: sbaks02
 Kubeconfig file - [Kubeconfig](/kubeconfig-ss)
-- Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
 ```
+- Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
+
