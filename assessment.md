@@ -190,6 +190,7 @@ https://drive.google.com/drive/folders/10_4Jv0t2Vuo3GfHXHqwkl7zLTjSpNw7W?usp=sha
 ```
 ACR Name: sbacr02.azurecr.io
 Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
+ACR Resource Group: SB-AKS-RG-01
 ```
 
 - Attach a snapshot for the successful push to ACR (CLI logs or Azure Portal)
@@ -202,7 +203,9 @@ Password: yaqRg5qwAcDq/X/GpdknvUuYTzP92fHH2V0vNJkw81+ACRC7yoKh
 - Edit the workflow to deploy the app to the below AKS cluster
 ```
 AKS Name: sbaks02
-Kubeconfig file - [Kubeconfig](/kubeconfig-ss)
+AKS Resource Group:SB-AKS-RG-01
 ```
+Kubeconfig file - [Kubeconfig](/kubeconfig-ss)
+
 - Ensure that your pods are running and attach a snapshot for the successful execution of the above workflow
 
